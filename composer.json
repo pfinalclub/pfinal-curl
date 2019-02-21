@@ -1,0 +1,36 @@
+{
+    "name": "nancheng/pfinal-curl",
+    "authors": [
+        {
+            "name": "南丞",
+            "email": "Lampxiezi@163.com",
+            "homepage": "http://friday-go.cc/"
+        }
+    ],
+    "homepage": "https://github.com/pfinalclub/pfinal-curl",
+    "license": "MIT",
+    "keywords": [
+        "pfinal",
+        "南丞",
+        "Q哥",
+        "php-curl",
+        "curl",
+        "pfinal-curl"
+    ],
+    "autoload": {
+        "psr-4": {
+            "pf\\curl\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.2"
+    }
+}
